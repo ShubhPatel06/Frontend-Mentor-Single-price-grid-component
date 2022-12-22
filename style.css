@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 40rem;
+  display: grid;
+  grid-template-rows: 1fr 1.2fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container .information {
+  grid-column: 1 / span 2;
+  background-color: hsl(0, 0%, 100%);
+  padding: 2.2rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.container .information .title {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.container .information .description {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.container .information .message {
+  color: hsl(218, 22%, 67%);
+  font-size: 1rem;
+}
+
+.container .subscription {
+  background-color: hsl(179, 62%, 43%);
+  padding: 2.2rem;
+  color: hsl(0, 0%, 100%);
+  border-radius: 0 0 0 0.5rem;
+}
+
+.sub-title {
+  font-size: 1.1rem;
+  margin-bottom: 1.1rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+.container .subscription .price-info {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.container .subscription .price-info .price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.container .subscription .price-info .validity {
+  align-self: center;
+  color: hsl(204, 43%, 93%);
+}
+
+.container .subscription .info {
+  margin-bottom: 1.6rem;
+}
+
+.container .subscription .btn {
+  width: 95%;
+  padding: 0.9rem;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 0.4rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+}
+
+.container .why-us-section {
+  background-color: hsl(179, 52%, 55%);
+  padding: 2.2rem;
+  border-radius: 0 0 0.5rem 0;
+}
+
+.container .why-us-section .why-info {
+  color: hsl(204, 43%, 93%);
+  padding-right: 2.6rem;
+}
