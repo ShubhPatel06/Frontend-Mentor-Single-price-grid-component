@@ -19,7 +19,7 @@ body {
 .container {
   width: 40rem;
   display: grid;
-  grid-template-rows: 1fr 1.2fr;
+/*   grid-template-rows: 1fr 1.2fr; */
   grid-template-columns: 1fr 1fr;
 }
 
@@ -103,4 +103,11 @@ body {
 .container .why-us-section .why-info {
   color: hsl(204, 43%, 93%);
   padding-right: 2.6rem;
+}
+
+@media (max-width: 600px){
+.container{
+  max-width: 25rem;
+ grid-template-columns: 1fr;
+ }
 }
